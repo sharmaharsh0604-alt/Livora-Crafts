@@ -223,7 +223,7 @@ export const products = [
     id: 301,
     category: "photo-frames",
     name: "Classic Wooden Photo Frame",
-    image: "/products/photo-frame/f-1.jpg",
+    image: "/products/photo-frame/f-1.JPG",
     images: ["/products/photo-frame/f-1.jpg", "/products/photo-frame/f-1-2.jpg"],
     material: "Sheesham Wood",
     finish: "Natural Matte",
