@@ -106,7 +106,6 @@ export default function Navbar() {
             visibility 0.26s;
           z-index: 200;
         }
-        /* hover bridge */
         .nb-mega::before {
           content: '';
           position: absolute;
@@ -130,7 +129,6 @@ export default function Navbar() {
             0 4px 16px rgba(50,28,5,0.07);
         }
 
-        /* Gold top line */
         .nb-mega-topline {
           height: 2px;
           background: linear-gradient(90deg, #a8722a, #d4a444, #a8722a);
@@ -142,18 +140,12 @@ export default function Navbar() {
           padding: 28px 0 24px;
         }
 
-        .nb-mega-col {
-          padding: 0 28px;
-        }
-        .nb-mega-col:first-child {
-          border-right: 1px solid rgba(168,114,42,0.1);
-        }
+        .nb-mega-col { padding: 0 28px; }
+        .nb-mega-col:first-child { border-right: 1px solid rgba(168,114,42,0.1); }
 
-        /* Category section within col */
         .nb-mega-section { margin-bottom: 22px; }
         .nb-mega-section:last-child { margin-bottom: 0; }
 
-        /* ── FIX: Category title — clean, Jost, uppercase, small ── */
         .nb-cat-title {
           font-family: 'Jost', sans-serif;
           font-size: 0.58rem;
@@ -166,7 +158,6 @@ export default function Navbar() {
           border-bottom: 1px solid rgba(168,114,42,0.12);
         }
 
-        /* Dropdown links */
         .nb-mega-link {
           display: flex;
           align-items: center;
@@ -178,9 +169,7 @@ export default function Navbar() {
           color: #3a2a14;
           padding: 5px 0;
           text-decoration: none;
-          transition:
-            color 0.2s ease,
-            padding-left 0.24s cubic-bezier(0.34,1.56,0.64,1);
+          transition: color 0.2s ease, padding-left 0.24s cubic-bezier(0.34,1.56,0.64,1);
           position: relative;
         }
         .nb-mega-link::before {
@@ -188,23 +177,14 @@ export default function Navbar() {
           display: inline-block;
           width: 0; height: 1px;
           background: #a8722a;
-          transition:
-            width 0.22s cubic-bezier(0.34,1.56,0.64,1),
-            margin-right 0.22s;
+          transition: width 0.22s cubic-bezier(0.34,1.56,0.64,1), margin-right 0.22s;
           vertical-align: middle;
           margin-right: 0;
           flex-shrink: 0;
         }
-        .nb-mega-link:hover {
-          color: #a8722a;
-          padding-left: 6px;
-        }
-        .nb-mega-link:hover::before {
-          width: 10px;
-          margin-right: 6px;
-        }
+        .nb-mega-link:hover { color: #a8722a; padding-left: 6px; }
+        .nb-mega-link:hover::before { width: 10px; margin-right: 6px; }
 
-        /* Mega footer */
         .nb-mega-footer {
           display: flex;
           align-items: center;
@@ -235,7 +215,6 @@ export default function Navbar() {
         }
         .nb-mega-footer-link:hover { opacity: 0.65; }
 
-        /* ── CTA button ── */
         .nb-cta {
           font-family: 'Jost', sans-serif;
           font-size: 0.65rem;
@@ -263,10 +242,7 @@ export default function Navbar() {
           transition: opacity 0.3s ease;
         }
         .nb-cta:hover::after { opacity: 1; }
-        .nb-cta:hover {
-          box-shadow: 0 6px 22px rgba(168,114,42,0.36);
-          transform: translateY(-1px);
-        }
+        .nb-cta:hover { box-shadow: 0 6px 22px rgba(168,114,42,0.36); transform: translateY(-1px); }
         .nb-cta span { position: relative; z-index: 1; }
 
         /* ── Mobile ── */
@@ -363,14 +339,8 @@ export default function Navbar() {
 
         {/* ── MAIN BAR ── */}
         <div className="max-w-7xl mx-auto px-6">
-          {/*
-            FIX: h-[64px] — compact height
-            Logo is w-20 h-20 (80px) which naturally overflows slightly top/bottom
-            giving that editorial "oversized logo" feel used by luxury brands.
-          */}
           <div className="flex items-center justify-between h-[64px]">
 
-            {/* ── LOGO — original w-20 h-20 preserved ── */}
             <Link href="/" className="flex items-center group flex-shrink-0">
               <div className="relative w-20 h-20 flex items-center justify-center">
                 <Image
@@ -389,7 +359,6 @@ export default function Navbar() {
               <Link href="/" className="nb-link">Home</Link>
               <Link href="/about" className="nb-link">About Us</Link>
 
-              {/* PRODUCTS */}
               <div className="nb-products">
                 <div className="nb-link flex items-center cursor-pointer select-none" style={{ textDecoration: "none" }}>
                   Products
@@ -398,42 +367,28 @@ export default function Navbar() {
                   </svg>
                 </div>
 
-                {/* MEGA PANEL */}
                 <div className="nb-mega">
                   <div className="nb-mega-inner">
                     <div className="nb-mega-topline" />
-
                     <div className="nb-mega-grid">
-                      {/* Col 1 */}
                       <div className="nb-mega-col">
                         {categories.slice(0, 2).map((cat) => (
                           <div key={cat.title} className="nb-mega-section">
-                            {/* CLEAN category title */}
                             <div className="nb-cat-title">{cat.title}</div>
                             {cat.items.map((item) => (
-                              <Link
-                                key={item}
-                                href={`/products/${item.toLowerCase().replace(/\s+/g, "-")}`}
-                                className="nb-mega-link"
-                              >
+                              <Link key={item} href={`/products/${item.toLowerCase().replace(/\s+/g, "-")}`} className="nb-mega-link">
                                 {item}
                               </Link>
                             ))}
                           </div>
                         ))}
                       </div>
-
-                      {/* Col 2 */}
                       <div className="nb-mega-col">
                         {categories.slice(2, 4).map((cat) => (
                           <div key={cat.title} className="nb-mega-section">
                             <div className="nb-cat-title">{cat.title}</div>
                             {cat.items.map((item) => (
-                              <Link
-                                key={item}
-                                href={`/products/${item.toLowerCase().replace(/\s+/g, "-")}`}
-                                className="nb-mega-link"
-                              >
+                              <Link key={item} href={`/products/${item.toLowerCase().replace(/\s+/g, "-")}`} className="nb-mega-link">
                                 {item}
                               </Link>
                             ))}
@@ -441,12 +396,8 @@ export default function Navbar() {
                         ))}
                       </div>
                     </div>
-
-                    {/* Footer */}
                     <div className="nb-mega-footer">
-                      <span className="nb-mega-footer-text">
-                        Handcrafted with love in India
-                      </span>
+                      <span className="nb-mega-footer-text">Handcrafted with love in India</span>
                       <Link href="/products/coasters" className="nb-mega-footer-link">
                         View All
                         <svg width="10" height="10" viewBox="0 0 10 10" fill="none">
@@ -460,10 +411,7 @@ export default function Navbar() {
 
               <Link href="/respect" className="nb-link">Respect</Link>
               <Link href="/blog" className="nb-link">Blog</Link>
-
-              <Link href="/catalogue" className="nb-cta ml-1">
-                <span>Get Catalogue</span>
-              </Link>
+              <Link href="/catalogue" className="nb-cta ml-1"><span>Get Catalogue</span></Link>
             </div>
 
             {/* ── MOBILE HAMBURGER ── */}
@@ -485,19 +433,21 @@ export default function Navbar() {
           </div>
         </div>
 
-        {/* ── MOBILE MENU ── */}
+        {/* ── MOBILE MENU — SCROLLABLE FIX ── */}
         {isOpen && (
           <div style={{
             background: "#fdfaf5",
             borderTop: "1px solid rgba(168,114,42,0.12)",
             boxShadow: "0 16px 40px rgba(50,28,5,0.1)",
+            maxHeight: "70vh",        /* ← screen ka 70% tak hi */
+            overflowY: "auto",        /* ← scroll enable */
+            WebkitOverflowScrolling: "touch", /* ← smooth iOS scroll */
           }}>
             <div className="px-5 py-5 space-y-0.5">
               {[{ href: "/", label: "Home" }, { href: "/about", label: "About Us" }].map(({ href, label }) => (
                 <Link key={href} href={href} className="nb-mob-link">{label}</Link>
               ))}
 
-              {/* Products accordion */}
               <div>
                 <button
                   onClick={() => setOpenMenu(openMenu === "products" ? "" : "products")}
@@ -530,11 +480,7 @@ export default function Navbar() {
                       <div key={title} className="mb-4 mt-3">
                         <p className="nb-mob-cat-title">{title}</p>
                         {items.map((item) => (
-                          <Link
-                            key={item}
-                            href={`/products/${item.toLowerCase().replace(/\s+/g, "-")}`}
-                            className="nb-mob-sub"
-                          >
+                          <Link key={item} href={`/products/${item.toLowerCase().replace(/\s+/g, "-")}`} className="nb-mob-sub">
                             {item}
                           </Link>
                         ))}
