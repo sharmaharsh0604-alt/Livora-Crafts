@@ -388,15 +388,6 @@ export default function BlogDetailPage({
               ))}
             </div>
 
-            {/* CTA */}
-            <div className="bsp-cta-block">
-              <span className="bsp-cta-label">Ready to Source?</span>
-              <div className="bsp-cta-title">Get our full product catalogue</div>
-              <Link href="/catalogue" className="bsp-cta-btn">
-                Download Catalogue
-              </Link>
-            </div>
-
           </aside>
         </div>
 

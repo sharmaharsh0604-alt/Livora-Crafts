@@ -380,7 +380,7 @@ export default function ProductSidebar({ category }: Props) {
                 Need bulk or branded products? We craft to your vision.
               </p>
               <Link
-                href="/contact"
+                href="/catalogue"
                 className="flex items-center justify-center gap-2 w-full py-2 rounded-lg"
                 style={{
                   background: "linear-gradient(135deg, #c8922a 0%, #e8b84b 100%)",

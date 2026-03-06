@@ -190,7 +190,7 @@ export default function AboutHero() {
                   <path d="M1 5h12M8 1l5 4-5 4" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
               </Link>
-              <Link href="/contact" className="ah-ghost">
+              <Link href="/catalogue" className="ah-ghost">
                 Work With Us <span className="ah-arr"/>
               </Link>
             </div>

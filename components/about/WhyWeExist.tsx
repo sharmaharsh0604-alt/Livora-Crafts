@@ -239,7 +239,6 @@ export default function WhyWeExist() {
                   We believe trade should empower. Every order supports artisans and keeps traditional
                   craftsmanship alive. Partner with us to bring authentic Indian handicrafts to your market.
                 </p>
-                <Link href="/catalogue" className="ww-btn"><span>Get Our Catalogue</span></Link>
               </div>
             </div>
 

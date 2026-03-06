@@ -34,7 +34,20 @@ export default function CatalogueSection() {
     setFilled(p => ({ ...p, [name]: value.length > 0 }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => { e.preventDefault(); setSubmitted(true); };
+  const handleSubmit = async (e: React.FormEvent) => {
+  e.preventDefault();
+  try {
+    const res = await fetch('/api/catalogue', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(formData),
+    });
+    if (res.ok) setSubmitted(true);
+    else alert('Something went wrong. Please try again.');
+  } catch {
+    alert('Something went wrong. Please try again.');
+  }
+};
 
   const isActive = (name: string) => focused === name || filled[name];
 
