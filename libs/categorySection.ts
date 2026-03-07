@@ -13,6 +13,7 @@ const categorySections = [
     items: [
       { slug: "desk-organizers", name: "Desk Organizers" },
       { slug: "pen-holder", name: "Pen Holder" },
+      { slug: "globes", name: "Globes" },
       { slug: "phone-holder", name: "Phone Holder" },
     ],
   },
@@ -20,15 +21,14 @@ const categorySections = [
     title: "Home Decor",
     items: [
       { slug: "candle-holders", name: "Candle Holders" },
-      { slug: "globes", name: "Globes" },
+      { slug: "photo-frames", name: "Photo Frames" },
       { slug: "decor-objects", name: "Decor Objects" },
     ],
   },
   {
-    title: "Storage & Utility",
+    title: "Storage & Lifestyle",
     items: [
       { slug: "storage-boxes", name: "Storage Boxes" },
-      { slug: "photo-frames", name: "Photo Frames" },
       { slug: "wooden-games", name: "Wooden Games" },
     ],
   },

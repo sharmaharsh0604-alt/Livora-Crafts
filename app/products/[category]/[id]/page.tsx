@@ -48,7 +48,7 @@ export default function ProductDetailPage({
         >
           <Link href="/" className="hover:text-[#6B4B2A]">Home</Link>
           <span>›</span>
-          <Link href="/products" className="hover:text-[#6B4B2A]">Products</Link>
+          <Link href="/products/coasters" className="hover:text-[#6B4B2A]">Products</Link>
           <span>›</span>
           <Link href={`/products/${product.category}`} className="hover:text-[#6B4B2A] capitalize">
             {product.category.replace(/-/g, " ")}

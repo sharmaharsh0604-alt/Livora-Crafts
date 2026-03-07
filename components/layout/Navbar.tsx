@@ -22,15 +22,15 @@ export default function Navbar() {
     },
     {
       title: "Office Accessories",
-      items: ["Desk Organizers", "Pen Holder", "Phone Holder"],
+      items: ["Desk Organizers", "Pen Holder","Globes", "Phone Holder"],
     },
     {
       title: "Home Decor",
-      items: ["Candle Holders", "Globes", "Decor Objects"],
+      items: ["Candle Holders","Photo Frames", "Decor Objects"],
     },
     {
-      title: "Storage & Utility",
-      items: ["Storage Boxes", "Photo Frames", "Wooden Games"],
+      title: "Storage & Lifestyle",
+      items: ["Storage Boxes", "Wooden Games"],
     },
   ];
 

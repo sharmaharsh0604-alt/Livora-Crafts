@@ -25,6 +25,8 @@ const categorySections = [
       { slug: "desk-organizers", name: "Desk Organizers" },
       { slug: "pen-holder", name: "Pen Holder" },
       { slug: "phone-holder", name: "Phone Stands" },
+      { slug: "globes", name: "Globes" },
+
     ],
   },
   {
@@ -32,16 +34,16 @@ const categorySections = [
     emoji: "🪔",
     items: [
       { slug: "candle-holders", name: "Candle Holders" },
-      { slug: "globes", name: "Globes" },
       { slug: "decor-objects", name: "Decor Objects" },
+      { slug: "photo-frames", name: "Photo Frames" },
+
     ],
   },
   {
-    title: "Storage & Utility",
+    title: "Storage & Lifestyle",
     emoji: "📦",
     items: [
       { slug: "storage-boxes", name: "Storage Boxes" },
-      { slug: "photo-frames", name: "Photo Frames" },
       { slug: "wooden-games", name: "Wooden Games" },
     ],
   },
