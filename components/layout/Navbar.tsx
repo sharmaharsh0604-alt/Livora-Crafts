@@ -21,7 +21,7 @@ export default function Navbar() {
       items: ["Coasters", "Serving Platters", "Chopping Board", "Napkin Holders"],
     },
     {
-      title: "Office Accessories",
+      title: "Desk & Office Accessories",
       items: ["Desk Organizers", "Pen Holder","Globes", "Phone Holder"],
     },
     {

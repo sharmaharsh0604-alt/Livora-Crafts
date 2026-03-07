@@ -19,7 +19,7 @@ const categorySections = [
     ],
   },
   {
-    title: "Office Accessories",
+    title: "Desk & Office Accessories",
     emoji: "🖊",
     items: [
       { slug: "desk-organizers", name: "Desk Organizers" },

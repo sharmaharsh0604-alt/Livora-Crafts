@@ -9,7 +9,7 @@ const categorySections = [
     ],
   },
   {
-    title: "Office Accessories",
+    title: "Desk & Office Accessories",
     items: [
       { slug: "desk-organizers", name: "Desk Organizers" },
       { slug: "pen-holder", name: "Pen Holder" },
