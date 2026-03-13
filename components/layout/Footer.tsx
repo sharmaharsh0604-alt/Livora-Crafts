@@ -222,7 +222,7 @@ export default function Footer() {
                       Email
                     </div>
                     <Link href="mailto:info@livoracrafts.com" className="ft2-email">
-                      info@livoracrafts.com
+                      harsh@livoracrafts.com
                     </Link>
                   </div>
                 </div>
