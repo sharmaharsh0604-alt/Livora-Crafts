@@ -13,7 +13,7 @@ const categorySections = [
     emoji: "🍽",
     items: [
       { slug: "coasters", name: "Coasters" },
-      { slug: "serving-platters", name: "Serving Platters" },
+      { slug: "serving-trays", name: "Serving trays" },
       { slug: "chopping-board", name: "Chopping Board" },
       { slug: "napkin-holders", name: "Napkin Holders" },
     ],

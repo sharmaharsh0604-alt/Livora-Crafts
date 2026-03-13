@@ -18,7 +18,7 @@ export default function Navbar() {
   const categories = [
     {
       title: "Tableware & Kitchen",
-      items: ["Coasters", "Serving Platters", "Chopping Board", "Napkin Holders"],
+      items: ["Coasters", "Serving Trays", "Chopping Board", "Napkin Holders"],
     },
     {
       title: "Desk & Office Accessories",

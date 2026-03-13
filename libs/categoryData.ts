@@ -5,9 +5,9 @@ export const categoryData = {
     title: "Premium Coasters",
   },
 
-  "serving-platters": {
+  "serving-trays": {
     image: "/images/plater.jpg",
-    title: "Serving Platters",
+    title: "Serving Trays",
   },
 
  "chopping-board": {

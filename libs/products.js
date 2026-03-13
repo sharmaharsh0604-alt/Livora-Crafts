@@ -288,7 +288,7 @@ export const products = [
 
  {
   id: 401,
-  category: "serving-platters",
+  category: "serving-trays",
   name: "Long Handle Wooden Serving Tray",
   image: "/products/platters/s-1.jpg",
   images: [
@@ -305,7 +305,7 @@ export const products = [
 
 {
   id: 402,
-  category: "serving-platters",
+  category: "serving-trays",
   name: "Rectangular Wooden Serving Tray",
   image: "/products/platters/s-2.jpg",
   images: [
@@ -322,7 +322,7 @@ export const products = [
 
 {
   id: 403,
-  category: "serving-platters",
+  category: "serving-trays",
   name: "Minimal Wooden Serving Tray",
   image: "/products/platters/s-3.jpg",
   images: [
@@ -339,7 +339,7 @@ export const products = [
 
 {
   id: 404,
-  category: "serving-platters",
+  category: "serving-trays",
   name: "Classic Wooden Serving Tray With Handles",
   image: "/products/platters/s-4.jpg",
   images: [
@@ -356,7 +356,7 @@ export const products = [
 
 {
   id: 405,
-  category: "serving-platters",
+  category: "serving-trays",
   name: "Premium Wooden Tray With Metal Handles",
   image: "/products/platters/s-5.jpg",
   images: [

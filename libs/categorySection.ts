@@ -3,7 +3,7 @@ const categorySections = [
     title: "Tableware & Kitchen",
     items: [
       { slug: "coasters", name: "Coasters" },
-      { slug: "serving-platters", name: "Serving Platters" },
+      { slug: "serving-trays", name: "Serving Trays" },
       { slug: "chopping-board", name: "Chopping Board" },
       { slug: "napkin-holders", name: "Napkin Holders" },
     ],
