@@ -300,11 +300,11 @@ export default function CataloguePage() {
                 </div>
               ))}
 
-              <a href="mailto:info@livoracrafts.com" className="email-link">
+              <a href="mailto:harsh@livoracrafts.com" className="email-link">
                 <svg width="14" height="11" viewBox="0 0 24 18" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
                   <rect x="2" y="2" width="20" height="14" rx="2" /><polyline points="2,4 12,11 22,4" />
                 </svg>
-                info@livoracrafts.com
+                harsh@livoracrafts.com
               </a>
             </div>
 
@@ -369,10 +369,6 @@ export default function CataloguePage() {
                         </svg>
                       </span>
                     </button>
-
-                    <p style={{ fontFamily: "'DM Sans',sans-serif", fontSize: '.52rem', fontWeight: 300, letterSpacing: '.08em', color: 'rgba(13,8,3,.2)', textAlign: 'center', marginTop: '14px' }}>
-                      No spam. Your data is never sold or shared.
-                    </p>
                   </form>
                 </>
               )}

@@ -14,7 +14,7 @@ export default function Footer() {
   const company = [
     { label: 'About Us',    href: '/about'   },
     { label: 'Craft Story', href: '/respect' },
-    { label: 'Product',     href: '/product/coasters' },
+    { label: 'Product',     href: '/products/coasters' },
     { label: 'Blog',        href: '/blog'    },
   ];
 
