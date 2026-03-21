@@ -344,13 +344,14 @@ export default function Navbar() {
             <Link href="/" className="flex items-center group flex-shrink-0">
               <div className="relative w-20 h-20 flex items-center justify-center">
                 <Image
-                  src="/images/image-logo.png"
-                  alt="Livora Crafts"
-                  width={73}
-                  height={73}
-                  className="object-contain transition-transform duration-300 group-hover:scale-105 drop-shadow-sm"
-                  priority
-                />
+  src="/images/image-logo.png"
+  alt="Livora Crafts"
+  width={73}
+  height={73}
+  className="object-contain transition-transform duration-300 group-hover:scale-105"
+  style={{ mixBlendMode: "multiply" }} 
+  priority
+/>
               </div>
             </Link>
 
