@@ -288,7 +288,7 @@ export default function HeroSection() {
               style={{ transitionDelay:"0.66s", marginBottom:"36px", display:"flex", alignItems:"center", gap:"28px", flexWrap:"wrap" }}
             >
               <Link href="/products/coasters" className="hs-btn"><span>Explore Products</span></Link>
-              <Link href="/contact"  className="hs-ghost">Get a Quote <span className="hs-arr"/></Link>
+              <Link href="/catalogue"  className="hs-ghost">Get a Quote <span className="hs-arr"/></Link>
             </div>
 
             {/* usps */}
