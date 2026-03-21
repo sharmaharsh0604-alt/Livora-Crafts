@@ -344,7 +344,7 @@ export default function Navbar() {
             <Link href="/" className="flex items-center group flex-shrink-0">
               <div className="relative w-20 h-20 flex items-center justify-center">
                 <Image
-                  src="/images/image-logo.png"
+                  src="/images/image-logo-2.jpg"
                   alt="Livora Crafts"
                   width={73}
                   height={73}
