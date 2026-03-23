@@ -106,13 +106,17 @@ export default function AboutHero() {
         style={{ position:'relative', width:'100%', height:'100vh', minHeight:'580px', overflow:'hidden' }}
       >
         {/* VIDEO */}
-        <video
-          autoPlay muted loop playsInline
-          className="ah-vid"
-          style={{ position:'absolute', inset:0, width:'100%', height:'100%', objectFit:'cover', zIndex:0 }}
-        >
-          <source src="/Video/about-section.mp4" type="video/mp4" />
-        </video>
+       <video
+  autoPlay
+  muted
+  loop
+  playsInline
+  poster="/images/about-poster.jpg"
+  className="ah-vid"
+  style={{ position:'absolute', inset:0, width:'100%', height:'100%', objectFit:'cover', zIndex:0 }}
+>
+  <source src="/Video/about-section.mp4" type="video/mp4" />
+</video>
 
         {/* OVERLAYS */}
         <div style={{ position:'absolute', inset:0, zIndex:1, background:'linear-gradient(to top, rgba(8,4,1,0.88) 0%, rgba(8,4,1,0.48) 40%, rgba(8,4,1,0.15) 70%, transparent 100%)' }}/>
