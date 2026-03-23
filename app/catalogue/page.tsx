@@ -18,15 +18,6 @@ export default function CataloguePage() {
     return () => clearTimeout(t);
   }, []);
 
-  useEffect(() => {
-    const onScroll = () => {
-      if (!parallaxRef.current) return;
-      parallaxRef.current.style.transform = `translateY(${window.scrollY * 0.18}px) scale(1.08)`;
-    };
-    window.addEventListener('scroll', onScroll, { passive: true });
-    return () => window.removeEventListener('scroll', onScroll);
-  }, []);
-
   const handle = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) =>
     setVals(p => ({ ...p, [e.target.name]: e.target.value }));
 
@@ -248,12 +239,12 @@ export default function CataloguePage() {
           </div>
 
           <div className="h-img">
-            <div ref={parallaxRef} className="h-img-inner">
+            <div className="h-img-inner">
               <Image
                 src="/images/catalogue.jpg"
                 alt="Livora Crafts — Handcrafted décor"
                 fill priority
-                style={{ objectFit: 'cover', objectPosition: 'center 60%' }}
+                style={{ objectFit: 'cover', objectPosition: 'center 30%' }}
                 sizes="50vw"
               />
             </div>
