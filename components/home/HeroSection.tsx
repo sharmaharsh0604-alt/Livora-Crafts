@@ -5,9 +5,9 @@ import Image from 'next/image';
 import { useState, useEffect, useRef } from 'react';
 
 const slides = [
-  { src: '/images/hero-2.png', tag: 'Wooden Tableware' },
-  { src: '/images/hero-3.png', tag: 'Home Décor' },
-  { src: '/images/hero-1.png', tag: 'Artisan Crafts' },
+  { src: '/images/hero-2.jpg', tag: 'Wooden Tableware' },
+  { src: '/images/hero-3.jpg', tag: 'Home Décor' },
+  { src: '/images/hero-1.jpg', tag: 'Artisan Crafts' },
 ];
 
 const DURATION = 4500;
