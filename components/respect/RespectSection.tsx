@@ -207,7 +207,7 @@ export default function RespectSection() {
 
           <div className="rsp-hero-img">
             <Image
-              src="/images/respect-3.png"
+              src="/images/respect-3.jpg"
               alt="Indian Artisan Craft"
               fill priority
               className="object-cover"
