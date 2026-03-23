@@ -5,7 +5,7 @@ export default function Footer() {
   const year = new Date().getFullYear();
 
   const collections = [
-    { label: 'Wooden Tableware',   href: '/products/coasters'        },
+    { label: 'Tableware',   href: '/products/coasters'   },
     { label: 'Home Décor',         href: '/products/candle-holders'  },
     { label: 'Office Accessories', href: '/products/desk-organizers' },
     { label: 'Storage & Utility',  href: '/products/storage-boxes'   },

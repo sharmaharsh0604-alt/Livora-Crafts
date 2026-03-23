@@ -277,7 +277,7 @@ export default function HeroSection() {
                 fontWeight:300, lineHeight:1.9, letterSpacing:"0.02em",
                 color:"rgba(253,250,245,0.54)", maxWidth:"400px",
               }}>
-                Premium wooden coasters, trays, candle holders &amp; décor pieces —
+                Premium handcrafted coasters, trays, candle holders &amp; décor pieces —
                 crafted by skilled Indian artisans, ready for global retail and gifting.
               </p>
             </div>
