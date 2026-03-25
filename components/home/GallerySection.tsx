@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { useState, useEffect, useRef } from 'react';
 
 const images = [
-  { src: '/images/Our Gallery.png',  label: 'Collection Overview' },
+  { src: '/images/our-gallery.png',  label: 'Collection Overview' },
   { src: '/images/gallery-1.jpg',    label: 'Wooden Tableware' },
   { src: '/images/gallery-2.jpg',    label: 'Serving Platters' },
   { src: '/images/gallery-3.jpg',    label: 'Storage & Décor' },
