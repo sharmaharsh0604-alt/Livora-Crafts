@@ -8,8 +8,8 @@ const images = [
   { src: '/images/gallery-1.jpg',    label: 'Wooden Tableware' },
   { src: '/images/gallery-2.jpg',    label: 'Serving Platters' },
   { src: '/images/gallery-3.jpg',    label: 'Storage & Décor' },
-  { src: '/images/gallery-4.jpg',    label: 'Artisan Detail' },
-  { src: '/images/gallery-5.avif',   label: 'Curated Pieces' },
+  { src: '/products/photo-frame/pf-1.jpg',    label: 'Artisan Detail' },
+  { src: '/images/gallery-5.jpg',   label: 'Curated Pieces' },
 ];
 
 export default function GallerySection() {
